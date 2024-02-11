@@ -8,7 +8,7 @@ if ($handle)
     while (($line = fgets($handle)) !== false) 
     {
         $line = str_replace('config', '', $line);    
-        if (strpos($line, ';') === false) 
+        if (strpos($line, ';') === false && strpos($line, '[') === false) 
         {
             $lines[] = $line;
         }

@@ -1,0 +1,1 @@
+name,location,ipaddr,nodeaddr,snmask,gwaddr,companyname,assetnumber,mgmtvtag,mgmtvpri,nodeopmode,logintimeout,editstimeout,lbtimeout,secret1,secret2,radaddr1,radaddr2,web,telnet,console,ssh,snmp,ntp,syslog,sesslog,authbackup,backuptrunkpiupoll
