@@ -1,0 +1,720 @@
+[controller]
+; PRODUCT_SN=7D8561551
+; PRODUCT_TYPE=CTM8
+; PCODE=P31020.04--005
+; SCODE=S62010.01
+; HWVER=0500
+; FPGAVER=2.0 [230328.1502]
+; SWAPPVERACT=5.20 [240107.2242]
+; SWAPPVERBAK=5.20 [240107.2038]
+; PHYICALSLOTID=17
+;
+config system name OMP_81
+config system location Location
+config system ipaddr 10.20.212.81
+config system nodeaddr 0.0.0.0
+config system snmask 255.255.255.0
+config system gwaddr 10.20.212.254
+config system companyname INALUM
+config system assetnumber none
+config system mgmtvtag 1
+config system mgmtvpri hi
+config system nodeopmode mpls-tp
+config system logintimeout 10
+config system editstimeout 10
+config system lbtimeout 10
+config system secret1 none
+config system secret2 none
+config system radaddr1 0.0.0.0
+config system radaddr2 0.0.0.0
+config system web disable
+config system telnet disable
+config system console enable
+config system ssh enable
+config system snmp enable
+config system ntp enable
+config system syslog enable
+config system sesslog disable
+config system authbackup enable
+config system backuptrunkpiupoll enable
+config switch xprimode strict
+config eth state disable 1
+config eth state disable 2
+config eth state disable 3
+config eth state disable 4
+config eth auto enable 1
+config eth auto enable 2
+config eth auto enable 3
+config eth auto enable 4
+config eth speed 1000M 1
+config eth speed 1000M 2
+config eth speed 1000M 3
+config eth speed 1000M 4
+config eth duplex full 1
+config eth duplex full 2
+config eth duplex full 3
+config eth duplex full 4
+config eth vtag 4001 1
+config eth vtag 4002 2
+config eth vtag 4003 3
+config eth vtag 4004 4
+config eth vpri 1 1
+config eth vpri 1 2
+config eth vpri 1 3
+config eth vpri 1 4
+config eth mrl none 1
+config eth mrl none 2
+config eth mrl none 3
+config eth mrl none 4
+config eth vlanmode access 1
+config eth vlanmode access 2
+config eth vlanmode access 3
+config eth vlanmode access 4
+config eth syncemode auto 1
+config eth syncemode auto 2
+config eth syncemode auto 3
+config eth syncemode auto 4
+config eth alarmpersist enable 1
+config eth alarmpersist enable 2
+config eth alarmpersist enable 3
+config eth alarmpersist enable 4
+config eth portname Eth1 1
+config eth portname Eth2 2
+config eth portname Eth3 3
+config eth portname Eth4 4
+config eth mode wan 1
+config eth mode wan 2
+config eth mode wan 3
+config eth mode wan 4
+config eth linkdiscover auto 1
+config eth linkdiscover auto 2
+config eth linkdiscover auto 3
+config eth linkdiscover auto 4
+config eth destmac 00:00:00:00:00:00 1
+config eth destmac 00:00:00:00:00:00 2
+config eth destmac 00:00:00:00:00:00 3
+config eth destmac 00:00:00:00:00:00 4
+config eth linkid 1 1
+config eth linkid 2 2
+config eth linkid 3 3
+config eth linkid 4 4
+config eth destport none 1
+config eth destport none 2
+config eth destport none 3
+config eth destport none 4
+config eth destnodeid none 1
+config eth destnodeid none 2
+config eth destnodeid none 3
+config eth destnodeid none 4
+config gig state enable 1
+config gig state enable 2
+config gig state disable 3
+config gig state disable 4
+config gig state disable 5
+config gig state disable 6
+config gig state disable 7
+config gig state disable 8
+config gig vtag 4011 1
+config gig vtag 4012 2
+config gig vtag 4013 3
+config gig vtag 4014 4
+config gig vtag 4015 5
+config gig vtag 4016 6
+config gig vtag 4017 7
+config gig vtag 4018 8
+config gig vpri 1 1
+config gig vpri 1 2
+config gig vpri 1 3
+config gig vpri 1 4
+config gig vpri 1 5
+config gig vpri 1 6
+config gig vpri 1 7
+config gig vpri 1 8
+config gig vlanmode access 1
+config gig vlanmode access 2
+config gig vlanmode access 3
+config gig vlanmode access 4
+config gig vlanmode access 5
+config gig vlanmode access 6
+config gig vlanmode access 7
+config gig vlanmode access 8
+config gig alarmpersist enable 1
+config gig alarmpersist enable 2
+config gig alarmpersist enable 3
+config gig alarmpersist enable 4
+config gig alarmpersist enable 5
+config gig alarmpersist enable 6
+config gig alarmpersist enable 7
+config gig alarmpersist enable 8
+config gig portname omp82-omp81 1
+config gig portname omp82-omp81 2
+config gig portname Gig3 3
+config gig portname Gig4 4
+config gig portname Gig5 5
+config gig portname Gig6 6
+config gig portname Gig7 7
+config gig portname Gig8 8
+config gig mode wan 1
+config gig mode wan 2
+config gig mode wan 3
+config gig mode wan 4
+config gig mode wan 5
+config gig mode wan 6
+config gig mode wan 7
+config gig mode wan 8
+config gig linkdiscover auto 1
+config gig linkdiscover auto 2
+config gig linkdiscover auto 3
+config gig linkdiscover auto 4
+config gig linkdiscover auto 5
+config gig linkdiscover auto 6
+config gig linkdiscover auto 7
+config gig linkdiscover auto 8
+config gig destmac 00:0E:8A:03:9A:10 1
+config gig destmac 00:0E:8A:03:9A:10 2
+config gig destmac 00:00:00:00:00:00 3
+config gig destmac 00:00:00:00:00:00 4
+config gig destmac 00:00:00:00:00:00 5
+config gig destmac 00:00:00:00:00:00 6
+config gig destmac 00:00:00:00:00:00 7
+config gig destmac 00:00:00:00:00:00 8
+config gig linkid 1 1
+config gig linkid 2 2
+config gig linkid 3 3
+config gig linkid 4 4
+config gig linkid 5 5
+config gig linkid 6 6
+config gig linkid 7 7
+config gig linkid 8 8
+config gig destport gig1 1
+config gig destport gig2 2
+config gig destport none 3
+config gig destport none 4
+config gig destport none 5
+config gig destport none 6
+config gig destport none 7
+config gig destport none 8
+config gig destnodeid none 1
+config gig destnodeid none 2
+config gig destnodeid none 3
+config gig destnodeid none 4
+config gig destnodeid none 5
+config gig destnodeid none 6
+config gig destnodeid none 7
+config gig destnodeid none 8
+config gig als auto 1
+config gig als auto 2
+config gig als auto 3
+config gig als auto 4
+config gig als auto 5
+config gig als auto 6
+config gig als auto 7
+config gig als auto 8
+config gig pulseperiod 100 1
+config gig pulseperiod 100 2
+config gig pulseperiod 100 3
+config gig pulseperiod 100 4
+config gig pulseperiod 100 5
+config gig pulseperiod 100 6
+config gig pulseperiod 100 7
+config gig pulseperiod 100 8
+config rip state disable
+config rip version none
+config rip definfo disable
+config rip update 30
+config rip deletion 120
+config rip timeout 180
+config ospf state disable
+config ospf definfo disable
+config ospf routerid 0.0.0.0
+config ospf spfstart 50
+config ospf spfhold 1000
+config ospf spfmaxhold 6000
+config ospf priority 1
+config ospf helloint 5
+config ospf deadint 20
+config slot install 2:0130
+config slot install 4:013a
+config slot install 5:0130
+config slot install 7:0101
+config slot uninstall 1
+config slot uninstall 3
+config slot uninstall 6
+config slot uninstall 8
+config dcc state disable 1
+config dcc state disable 2
+config dcc state disable 3
+config dcc state disable 4
+config dcc state disable 5
+config dcc state disable 6
+config dcc state disable 7
+config dcc state disable 8
+config dcc state disable 9
+config dcc state disable 10
+config dcc state disable 11
+config dcc state disable 12
+config dcc state disable 13
+config dcc state disable 14
+config dcc state disable 15
+config dcc state disable 16
+config dcc mode numbered 1
+config dcc mode numbered 2
+config dcc mode numbered 3
+config dcc mode numbered 4
+config dcc mode numbered 5
+config dcc mode numbered 6
+config dcc mode numbered 7
+config dcc mode numbered 8
+config dcc mode numbered 9
+config dcc mode numbered 10
+config dcc mode numbered 11
+config dcc mode numbered 12
+config dcc mode numbered 13
+config dcc mode numbered 14
+config dcc mode numbered 15
+config dcc mode numbered 16
+config dcc ipaddr 0.0.0.0/32 1
+config dcc ipaddr 0.0.0.0/32 2
+config dcc ipaddr 0.0.0.0/32 3
+config dcc ipaddr 0.0.0.0/32 4
+config dcc ipaddr 0.0.0.0/32 5
+config dcc ipaddr 0.0.0.0/32 6
+config dcc ipaddr 0.0.0.0/32 7
+config dcc ipaddr 0.0.0.0/32 8
+config dcc ipaddr 0.0.0.0/32 9
+config dcc ipaddr 0.0.0.0/32 10
+config dcc ipaddr 0.0.0.0/32 11
+config dcc ipaddr 0.0.0.0/32 12
+config dcc ipaddr 0.0.0.0/32 13
+config dcc ipaddr 0.0.0.0/32 14
+config dcc ipaddr 0.0.0.0/32 15
+config dcc ipaddr 0.0.0.0/32 16
+config dcc ospfarea 0.0.0.0 1
+config dcc ospfarea 0.0.0.0 2
+config dcc ospfarea 0.0.0.0 3
+config dcc ospfarea 0.0.0.0 4
+config dcc ospfarea 0.0.0.0 5
+config dcc ospfarea 0.0.0.0 6
+config dcc ospfarea 0.0.0.0 7
+config dcc ospfarea 0.0.0.0 8
+config dcc ospfarea 0.0.0.0 9
+config dcc ospfarea 0.0.0.0 10
+config dcc ospfarea 0.0.0.0 11
+config dcc ospfarea 0.0.0.0 12
+config dcc ospfarea 0.0.0.0 13
+config dcc ospfarea 0.0.0.0 14
+config dcc ospfarea 0.0.0.0 15
+config dcc ospfarea 0.0.0.0 16
+config l3tp nww 0.0.0.0/32 1
+config l3tp nww 0.0.0.0/32 2
+config l3tp nww 0.0.0.0/32 3
+config l3tp nww 0.0.0.0/32 4
+config l3tp ifacew eeth1 1
+config l3tp ifacew eeth1 2
+config l3tp ifacew eeth1 3
+config l3tp ifacew eeth1 4
+config l3tp gwaddrw 0.0.0.0 1
+config l3tp gwaddrw 0.0.0.0 2
+config l3tp gwaddrw 0.0.0.0 3
+config l3tp gwaddrw 0.0.0.0 4
+config l3tp nwp 0.0.0.0/32 1
+config l3tp nwp 0.0.0.0/32 2
+config l3tp nwp 0.0.0.0/32 3
+config l3tp nwp 0.0.0.0/32 4
+config l3tp ifacep eeth2 1
+config l3tp ifacep eeth2 2
+config l3tp ifacep eeth2 3
+config l3tp ifacep eeth2 4
+config l3tp gwaddrp 0.0.0.0 1
+config l3tp gwaddrp 0.0.0.0 2
+config l3tp gwaddrp 0.0.0.0 3
+config l3tp gwaddrp 0.0.0.0 4
+config timing primary syncin
+config timing secondary internal
+config timing tertiary internal
+config timing quality sec internal
+config timing quality ssu-a syncin
+config timing quality ssu-b gps
+config timing quality dnu rec1
+config timing quality dnu rec2
+config timing quality ssm aux1
+config timing quality ssm aux2
+config timing quality dnu aux3
+config timing quality dnu aux4
+config timing quality dnu mod1
+config timing quality dnu mod2
+config timing aux gig1 1
+config timing aux gig2 2
+config timing aux none 3
+config timing aux none 4
+config timing switchonssm disable
+config timing wtrtime 5
+config timing guardtime 30
+config timing serveraddr 0.0.0.0 1
+config timing serveraddr 0.0.0.0 2
+config timing distribution disable
+config timing transport none
+config timing controlport 1021
+config timing streamingport 1020
+config timing jittertol 1
+config timing sysclkmode normal
+config timing modclkslot 0 1
+config timing modclkslot 0 2
+config timing modclkport 1 1
+config timing modclkport 1 2
+config snmp v1state enable
+config snmp community public
+config snmp trapagentaddr 0.0.0.0
+config snmp v2state disable
+config snmp v2community publicv2c
+config snmp v2timeoutinform 2
+config snmp v2retriesinform 3
+config snmp v3localengineid mac
+config snmp v3timeoutinform 2
+config snmp v3retriesinform 3
+config vlan 1 add
+config vlan 1 setip 10.20.212.81/24
+config vlan 4001 add
+config vlan 4001 addport eth 1
+config vlan 4002 add
+config vlan 4002 addport eth 2
+config vlan 4003 add
+config vlan 4003 addport eth 3
+config vlan 4004 add
+config vlan 4004 addport eth 4
+config vlan 4011 add
+config vlan 4011 addport gig 1
+config vlan 4012 add
+config vlan 4012 addport gig 2
+config vlan 4013 add
+config vlan 4013 addport gig 3
+config vlan 4014 add
+config vlan 4014 addport gig 4
+config vlan 4015 add
+config vlan 4015 addport gig 5
+config vlan 4016 add
+config vlan 4016 addport gig 6
+config vlan 4017 add
+config vlan 4017 addport gig 7
+config vlan 4018 add
+config vlan 4018 addport gig 8
+config vlan 1000 add
+config vlan 1000 addport slot 2
+config vlan 1001 add
+config vlan 1001 addport slot 2
+config vlan 3806 add
+config vlan 3806 addport slot 2
+config vlan 3806 addport slot 4
+config vlan 3826 add
+config vlan 3826 addport slot 2
+config vlan 3826 addport slot 4
+config tunnel 1 add
+config tunnel 1 type ler
+config tunnel 1 destprt gig 1
+config tunnel 1 destforwardlabel 2002
+config tunnel 1 destreverselabel 2003
+config tunnel 1 exp 5
+config tunnel 1 ttl 16
+config tunnel 1 name 100
+config tunnel 1 state enable
+config tunnel 2 add
+config tunnel 2 type ler
+config tunnel 2 destprt gig 2
+config tunnel 2 destforwardlabel 2004
+config tunnel 2 destreverselabel 2005
+config tunnel 2 exp 5
+config tunnel 2 ttl 16
+config tunnel 2 name 100
+config tunnel 2 state enable
+config tunnel 3 add
+config tunnel 3 srcvlan 1000
+config tunnel 3 type ler
+config tunnel 3 srcprt slot 2
+config tunnel 3 srcforwardlabel 1002
+config tunnel 3 srcreverselabel 1003
+config tunnel 3 destprt gig 1
+config tunnel 3 destforwardlabel 2002
+config tunnel 3 destreverselabel 2003
+config tunnel 3 exp 5
+config tunnel 3 ttl 16
+config tunnel 3 name MS000015
+config tunnel 3 state enable
+config tunnel 4 add
+config tunnel 4 srcvlan 1001
+config tunnel 4 type ler
+config tunnel 4 srcprt slot 2
+config tunnel 4 srcforwardlabel 1004
+config tunnel 4 srcreverselabel 1005
+config tunnel 4 destprt gig 2
+config tunnel 4 destforwardlabel 2004
+config tunnel 4 destreverselabel 2005
+config tunnel 4 exp 5
+config tunnel 4 ttl 16
+config tunnel 4 name MS000015
+config tunnel 4 state enable
+config tunnel 5 add
+config tunnel 5 srcvlan 3806
+config tunnel 5 type ler
+config tunnel 5 srcprt slot 4
+config tunnel 5 srcforwardlabel 1102
+config tunnel 5 srcreverselabel 1103
+config tunnel 5 destprt gig 1
+config tunnel 5 destforwardlabel 2002
+config tunnel 5 destreverselabel 2003
+config tunnel 5 exp 5
+config tunnel 5 ttl 16
+config tunnel 5 name MS000115
+config tunnel 5 state enable
+config tunnel 6 add
+config tunnel 6 srcvlan 3826
+config tunnel 6 type ler
+config tunnel 6 srcprt slot 4
+config tunnel 6 srcforwardlabel 1104
+config tunnel 6 srcreverselabel 1105
+config tunnel 6 destprt gig 2
+config tunnel 6 destforwardlabel 2004
+config tunnel 6 destreverselabel 2005
+config tunnel 6 exp 5
+config tunnel 6 ttl 16
+config tunnel 6 name MS000115
+config tunnel 6 state enable
+config ips state disable
+config ips ratelimit synflood disable 300
+config ips ratelimit udpflood disable 300
+config ips ratelimit icmpflood disable 300
+config ips ratelimit psd disable 300
+config ips ratelimit asd disable 300
+config ips block land disable
+config ips block pingofdeath disable
+config ips block ipspoof disable
+config ips block tcpflagscan disable
+config ips block smurf disable
+config ips block traceroute disable
+config ips block fraggle disable
+config filter clear
+[slot 2]
+; [cardInfo]
+; PRODUCT_SN=7D8561977
+; PRODUCT_TYPE=C37.94-2
+; PCODE=P31062.01--003
+; SCODE=S31062.01
+; HWVER=0300
+; FPGAVER=1.0 [231214.1352]
+; SWAPPVERACT=5.00 [231220.1522]
+; SWAPPVERBAK=5.00 [231116.2119]
+; PHYICALSLOTID=2
+;
+config unit pwepayload 16 1
+config pwe state enable 1
+config pwe state disable 2
+config pwe mode ptrunk 1
+config pwe mode trunk 2
+config pwe dest_ipaddr 10.20.212.82 1
+config pwe dest_ipaddr 0.0.0.0 2
+config pwe dest_ipaddrp 10.20.212.82 1
+config pwe dest_ipaddrp 0.0.0.0 2
+config pwe dest_slot 2 1
+config pwe dest_slot 1 2
+config pwe dest_port 1 1
+config pwe dest_port 2 2
+config pwe src_udpport 0 1
+config pwe src_udpport 0 2
+config pwe dest_udpport 0 1
+config pwe dest_udpport 0 2
+config pwe dscp 46 1
+config pwe dscp 46 2
+config pwe vid 1000 1
+config pwe vid 4091 2
+config pwe vidp 1001 1
+config pwe vidp 4092 2
+config pwe vpri 7 1
+config pwe vpri 5 2
+config pwe addr_mode static 1
+config pwe addr_mode static 2
+config pwe da 000E8A039E0A 1
+config pwe da 000000000000 2
+config pwe sa 000000000000 1
+config pwe sa 000000000000 2
+config pwe payload 1 1
+config pwe payload 1 2
+config pwe jitterbuffer 4 1
+config pwe jitterbuffer 6 2
+config pwe jittbuff250u 0 1
+config pwe jittbuff250u 0 2
+config pwe xc_port T1 1
+config pwe xc_port T1 2
+config pwe xc_sts 0 1
+config pwe xc_sts 1 2
+config pwe xc_numts 1 1
+config pwe xc_numts 1 2
+config xcon clear
+config xcon add_b T1 0 A1 1 MS000015
+config chan state enable 1
+config chan state disable 2
+config chan portname C37-2_P1_81-82 1
+config chan portname none 2
+config chan numts 1 1
+config chan numts 1 2
+config chan txpower 7 1
+config chan txpower 7 2
+config chan rxpwrthresh 0 1
+config chan rxpwrthresh 0 2
+config chan als off 1
+config chan als off 2
+config chan yellowalarm normal 1
+config chan yellowalarm normal 2
+config chan slipalarm disable 1
+config chan slipalarm disable 2
+config chan aistsalarm disable 1
+config chan aistsalarm disable 2
+config chan lbtimeout 10 1
+config chan lbtimeout 10 2
+[configSeperator]
+[slot 4]
+; [cardInfo]
+; PRODUCT_SN=7D8562237
+; PRODUCT_TYPE=GXU-4
+; PCODE=P31040.01--001
+; SCODE=S31040.01
+; HWVER=0200
+; FPGAVER=1.0 [231024.1411]
+; SWAPPVERACT=5.00 [240107.2343]
+; SWAPPVERBAK=5.00 [240105.2151]
+; PHYICALSLOTID=4
+;
+config chan state enable 1
+config chan state disable 2
+config chan state disable 3
+config chan state disable 4
+config chan auto enable 1
+config chan auto enable 2
+config chan auto enable 3
+config chan auto enable 4
+config chan speed 1G 1
+config chan speed 1G 2
+config chan speed 1G 3
+config chan speed 1G 4
+config chan duplex full 1
+config chan duplex full 2
+config chan duplex full 3
+config chan duplex full 4
+config chan vtag 3806 1
+config chan vtag 3807 2
+config chan vtag 3808 3
+config chan vtag 3809 4
+config chan vtagp 3826 1
+config chan vtagp 3827 2
+config chan vtagp 3828 3
+config chan vtagp 3829 4
+config chan vlanmode tunnel 1
+config chan vlanmode tunnel 2
+config chan vlanmode tunnel 3
+config chan vlanmode tunnel 4
+config chan irl none 1
+config chan irl none 2
+config chan irl none 3
+config chan irl none 4
+config chan erl none 1
+config chan erl none 2
+config chan erl none 3
+config chan erl none 4
+config chan portname none 1
+config chan portname none 2
+config chan portname none 3
+config chan portname none 4
+[configSeperator]
+[slot 5]
+; [cardInfo]
+; PRODUCT_SN=7D8561996
+; PRODUCT_TYPE=C37.94-2
+; PCODE=P31062.01--003
+; SCODE=S31062.01
+; HWVER=0300
+; FPGAVER=1.0 [231214.1352]
+; SWAPPVERACT=5.00 [231220.1522]
+; SWAPPVERBAK=5.00 [231116.2119]
+; PHYICALSLOTID=5
+;
+config unit pwepayload 16 1
+config pwe state disable 1
+config pwe state disable 2
+config pwe mode trunk 1
+config pwe mode trunk 2
+config pwe dest_ipaddr 0.0.0.0 1
+config pwe dest_ipaddr 0.0.0.0 2
+config pwe dest_ipaddrp 0.0.0.0 1
+config pwe dest_ipaddrp 0.0.0.0 2
+config pwe dest_slot 1 1
+config pwe dest_slot 1 2
+config pwe dest_port 1 1
+config pwe dest_port 2 2
+config pwe src_udpport 0 1
+config pwe src_udpport 0 2
+config pwe dest_udpport 0 1
+config pwe dest_udpport 0 2
+config pwe dscp 46 1
+config pwe dscp 46 2
+config pwe vid 4091 1
+config pwe vid 4091 2
+config pwe vidp 4092 1
+config pwe vidp 4092 2
+config pwe vpri 5 1
+config pwe vpri 5 2
+config pwe addr_mode static 1
+config pwe addr_mode static 2
+config pwe da 000000000000 1
+config pwe da 000000000000 2
+config pwe sa 000000000000 1
+config pwe sa 000000000000 2
+config pwe payload 1 1
+config pwe payload 1 2
+config pwe jitterbuffer 6 1
+config pwe jitterbuffer 6 2
+config pwe jittbuff250u 0 1
+config pwe jittbuff250u 0 2
+config pwe xc_port T1 1
+config pwe xc_port T1 2
+config pwe xc_sts 0 1
+config pwe xc_sts 1 2
+config pwe xc_numts 1 1
+config pwe xc_numts 1 2
+config xcon clear
+config chan state disable 1
+config chan state disable 2
+config chan portname none 1
+config chan portname none 2
+config chan numts 1 1
+config chan numts 1 2
+config chan txpower 7 1
+config chan txpower 7 2
+config chan rxpwrthresh 0 1
+config chan rxpwrthresh 0 2
+config chan als off 1
+config chan als off 2
+config chan yellowalarm normal 1
+config chan yellowalarm normal 2
+config chan slipalarm disable 1
+config chan slipalarm disable 2
+config chan aistsalarm disable 1
+config chan aistsalarm disable 2
+config chan lbtimeout 10 1
+config chan lbtimeout 10 2
+[configSeperator]
+[slot 7]
+; [cardInfo]
+; PRODUCT_SN=7D8558635
+; PRODUCT_TYPE=DC-PIU
+; PCODE=P31010.01--006
+; SCODE=S31010.01
+; HWVER=0600
+; FPGAVER=
+; SWAPPVERACT=2.00 [230525.1127]
+; SWAPPVERBAK=
+; PHYICALSLOTID=7
+;
+config chan threshold 20 1
+config chan major nc 1
+config chan minor no 1
+config chan critical no 1
+config chan pfalarm enable 1
+[configSeperator]
