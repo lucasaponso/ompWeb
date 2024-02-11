@@ -1,18 +1,27 @@
 <?php
-// Open the file for reading
 $filename = 'raw.data';
 $handle = fopen($filename, 'r');
 
-// Check if the file opened successfully
-if ($handle) {
-    // Read and print each line until the end of the file
-    while (($line = fgets($handle)) !== false) {
-        echo $line;
+if ($handle) 
+{
+    $lines = [];
+    while (($line = fgets($handle)) !== false) 
+    {
+        $line = str_replace('config', '', $line);    
+        if (strpos($line, ';') === false) 
+        {
+            $lines[] = $line;
+        }
     }
-
-    // Close the file handle
     fclose($handle);
-} else {
+} 
+else 
+{
     echo "Failed to open file.";
+}
+
+foreach ($lines as $line) 
+{
+    echo $line . "\n";
 }
 ?>
