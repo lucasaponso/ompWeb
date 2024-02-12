@@ -9,7 +9,7 @@
 ; SWAPPVERBAK=5.20 [240107.2038]
 ; PHYICALSLOTID=17
 ;
-config system name OMP_81
+config system name OMP_815555
 config system location Location
 config system ipaddr 10.20.212.81
 config system nodeaddr 0.0.0.0
